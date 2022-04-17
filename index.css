@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;    
+}
+
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 0; 
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.learn-coding-for-kids{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+    background: #116CFF;
+}
+
+.div1 {
+    position: absolute;
+    top: 42px;
+    left: 115px;
+    width: 45px;
+    height: 45px;
+
+    color: #00235C;
+    background: #FFFFFF;
+}
+
+.div1 h2.C {
+    position: relative;
+    top: -9px;
+    left: 6px;
+    width: 15px;
+    height: 15px;
+}
+
+.div2 {
+    position: absolute;
+    top: 42px;
+    left: 160px;
+    width: 125px;
+    height: 45px;
+
+    color:#FFFFFF;
+    background: #00235C;
+}
+
+.div2 h2.CODING-KID {
+    position: relative;
+    top: 9px;
+    left: 10px;
+    font-size: 17px;
+}
+
+.div3 {
+    position: absolute;
+    top: 42px; 
+    left: 500px;
+}
+
+.div3 h2.Testimony {
+    position: relative;
+    top: 10px;
+    font-size: 17px;
+}
+
+.div4 {
+    position: absolute;
+    top: 42px; 
+    left: 700px;
+}
+
+.div4 h2.Class {
+    position: relative;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.div5 {
+    position: absolute;
+    top: 42px;
+    left: 850px;  
+}
+
+.div5 h2.Our-Activity {
+    position: relative;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.div6 {
+    position: absolute;
+    top: 42px;
+    left: 1050px;
+}
+
+.div6 h2.Contact-us {
+    position: relative;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.div7 {
+    position: absolute;
+    top: 39px;
+    right: 125px;
+    height: 45px;
+    width: 110px;
+
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.div7 h2.Login {
+    position: relative;
+    top: 10px;
+    right: -32px;
+    font-size: 16px;
+    color: #116CFF;
+}
+
+.div8 {
+    position: absolute;
+    bottom: 155px;
+    left: 115px;
+    height: 65px;
+    width: 250px;
+
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.div8 h2.Book-a-Class {
+    position: relative;
+    top: 15px;
+    left: 60px;
+
+    font-size: 20px;
+    color: #116CFF  
+}
+
+.div9 {
+    position: absolute;
+    bottom: 155px;
+    left: 415px;
+    height: 65px;
+    width: 250px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.div9 h2.Learn-More {
+    position: relative;
+    top: 15px;
+    left: 65px;
+
+    font-size: 20px;
+}
+
+.learn-coding-for-kids article {
+    
+    width: 570px;
+    margin-right: 38px;
+}
+
+.learn-coding-for-kids p {
+    width: 570px;
+    height: 130px;
+}
+
+.logical-thinking {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #00235C;
+}
+
+.logical-thinking article {
+    width: 630px;
+}
+
+.logical-thinking p {
+    width: 561px;
+    height: 160px;
+}
+
+.preparing-your-kids {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+    background-color: #116CFF;
+}
+
+.preparing-your-kids article {
+    width: 570px;
+    margin-right: 38px;
+}
+
+.preparing-your-kids p {
+    width: 526px;
+    height: 120px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    section {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    img {
+        width: 500px;
+    }
+
+    .learn-coding-for-kids {
+        flex-direction: column-reverse;
+    }
+    
+    .learn-coding-for-kids article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 655px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .learn-coding-for-kids h1 {
+        height: 180px;
+    }
+
+    .learn-coding-for-kids p {
+        margin:0;
+        height: 202px;
+    }
+
+    .logical-thinking article {
+        width: 498px;
+        text-align: center;
+    }
+
+    .logical-thinking h1 {
+        width: 483px;
+        height: 180px;
+        margin-top: 0px;
+    }
+
+    .logical-thinking p {
+        width: 483px;
+        height: 218px;
+    }
+
+    .preparing-your-kids {
+        flex-direction: column-reverse;
+    }
+
+    .preparing-your-kids article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 655px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .preparing-your-kids h1 {
+        height: 180px;
+    }
+
+    .preparing-your-kids p {
+        margin: 0;
+        height: 202px;
+    }
+
+}
