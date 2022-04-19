@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 body {
     margin: 0;
@@ -458,6 +458,326 @@ p {
     position: relative;
     left: 260px;
     top: 60px;
+}
+
+.Our-Class {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+
+    background: #116CFF;
+}
+
+table {
+    position: relative;
+    top: 50px;
+
+    width: 83%;
+    border-collapse: collapse;
+}
+
+tr, td {
+    background-color:#FFFFFF;  
+}
+
+td {
+    height: 65px;
+    border: 1px solid #E7F0FF;
+}
+
+.Our-Class h1 {
+    position: relative;
+    top: 42px;
+    left: -518px;
+
+    color: #FFFFFF;
+}
+
+.Beginner-Class-for-7-12-Years {    
+    border-top-left-radius: 10px;
+    padding-left: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    border: 1px solid #E7F0FF;
+    background: #E7F0FF;
+}
+
+.Month {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+
+    background: #E7F0FF;
+    color: #00235C;
+}
+
+.Meet-Session {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+
+    background: #E7F0FF;
+    color: #00235C;
+}
+
+.Datail-Class {
+    border-top-right-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    width: 250px;
+
+    background: #E7F0FF;
+    color: #00235C;
+}
+
+.Photo-4-Stars {
+    background: #E7F0FF;
+}
+
+.Kids-Class {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+
+    background: #E7F0FF;
+    color: #00235C;
+}
+
+.Online-Offline-Meeting{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+
+    background: #E7F0FF;
+    color: #00235C;
+}
+
+.Intermediate-Class-for-7-12-Years {
+    padding-left: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    color: #116CFF;
+}
+
+.Dois-Mil-E-Quinhentos {
+    padding-left: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    color: #00235C;
+}
+
+.Expert-Class-for-12-Years {
+    padding-left: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    border: 1px solid #FFFFFF;
+    color: #116CFF;
+}
+
+.Doi-Mil-E-Novecentos {
+    padding-left: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    border: 1px solid #FFFFFF;
+    color: #00235C;
+}
+
+.Our-Class tr.Head {
+    background: rgba(255, 255, 255, 0.8);
+    color: #00235C;
+    border: 1px solid #E7F0FF;
+}
+
+.Our-Class tr.Head2 {
+    background: rgba(255, 255, 255, 0.8);
+    color: #00235C;
+    border: 1px solid #E7F0FF;
+}
+
+.Free-Trial-Class {
+    padding-left: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    border: 1px solid #FFFFFF;
+    color: #116CFF;
+}
+
+.Star-Photo {
+    border: 1px solid #FFFFFF;
+}
+
+.Empty {
+    border: 1px solid #FFFFFF;
+}
+
+.FREE {
+    padding-left: 165px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    border: 1px solid #FFFFFF;
+    color: #FF463A;
+}
+
+.Check-All-Class{
+    padding-left: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    border: 1px solid #FFFFFF;
+    color: #116CFF;
+}
+
+.div10  {
+    position: relative;
+    width: 150px;
+    height: 75px;
+    left: 520px;
+    bottom: 340px;
+
+    background: #116CFF;
+    border-radius: 10px;
+}
+
+.div10 p.Class {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.div11 {
+    position: relative;
+    width: 47px;
+    height: 25px;
+    right: 390px;
+    bottom: 138px;
+
+    background: #FFE6E5;
+    border-radius: 5px;
+}
+
+.div11 p.New {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0px;
+
+    text-align: center;
+
+    color: #FF463A;
+}
+
+.Our-Class img.Month {
+    position: relative;
+    bottom: 432px;
+    right: 80px;
+}
+
+.Our-Class img.Meet-Session {
+    position: relative;
+    bottom: 454px;
+    left: 85px;
+}
+
+.Our-Class img.Kids-Class {
+    position: relative;
+    bottom: 408px;
+    right: 80px;
+}
+
+.Our-Class img.Online-Offline-Meeting {
+    position: relative;
+    bottom: 423px;
+    left: 85px;
+}
+
+.Our-Class img.Begginer-Class {
+    position: relative;
+    bottom: 460px;
+    right: 525px;
+}
+
+.Our-Class img.Intermediate-Class {
+    position: relative;
+    bottom: 390px;
+    left: 25px;
+
+}
+
+.Our-Class img.Expert-Class {
+    position: relative;
+    bottom: 367px;
+    left: 13px;
+}
+
+.Our-Class img.Free-Trial {
+    position: relative;
+    bottom: 280px;
+    left: 25px;
+}
+
+.Our-Class img.Linha-Vertical1 {
+    position: relative;
+    bottom: 605px;
+    right: 629px;
+}
+
+.Our-Class img.Linha-Vertical2 {
+    position: relative;
+    bottom: 690px;
+    right: 629px;
 }
 
 
