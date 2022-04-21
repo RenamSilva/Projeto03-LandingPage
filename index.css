@@ -33,6 +33,25 @@ p {
     line-height: 40px;
 }
 
+.learn-coding-for-kids{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+    background: #116CFF;
+}
+
+.learn-coding-for-kids article {
+    width: 570px;
+    margin-right: 38px;
+}
+
+.learn-coding-for-kids p {
+    width: 570px;
+    height: 130px;
+}
+
 .div1 {
     position: absolute;
     top: 42px;
@@ -183,25 +202,6 @@ p {
     top: 15px;
     left: 65px;
     font-size: 20px;
-}
-
-.learn-coding-for-kids{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-
-    color: #FFFFFF;
-    background: #116CFF;
-}
-
-.learn-coding-for-kids article {
-    width: 570px;
-    margin-right: 38px;
-}
-
-.learn-coding-for-kids p {
-    width: 570px;
-    height: 130px;
 }
 
 .logical-thinking {
@@ -1008,6 +1008,225 @@ td {
     bottom: 570px;
 }
 
+.Footer{
+    height: 50vh;
+
+    align-items: center;
+    background: #00235C;
+}
+
+main {
+    
+    height: 50vh;
+    display:flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.Footer img.Imagem-Footer{
+    position: absolute;
+
+}
+
+.div14 {
+    position: relative;
+    bottom: 77px;
+    left: 99px;
+    width: 35.94px;
+    height: 37px;
+
+    color: #00235C;
+    background: #FFFFFF;
+}
+
+.div14 h2.C {
+    position: relative;
+    bottom: 7.5px;
+    left: 7.5px;
+    width: 15px;
+    height: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22.5524px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+
+    color: #00235C;
+}
+
+.div15 {
+    position: relative;
+    bottom: 77px;
+    left: 64px;
+    width: 128.5px;
+    height: 35px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12.6857px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+
+    color:#FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.div15 h2.CODING-KID {
+    position: relative;
+    width: 79px;
+    height: 18px;
+    left: 46px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12.6857px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.div16 h2.Endereco {
+    position: relative;
+    width: 377px;
+    height: 18px;
+    right: 68px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.div16 h2.Contato-Email {
+    position: relative;
+    width: 208px;
+    height: 18px;
+    right: 68px;
+    top: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.Redes-Sociais ul.Redes {
+    display: flex;
+    align-items:center;
+
+    position:relative;
+    top: 83px;
+    right: 503px; 
+}
+
+.Redes-Sociais a {
+    display: block;
+    padding: 18.5px;
+}
+
+.Primeira-Linha ul.Primeira {
+    position: relative;
+    bottom: 15px;
+    right: 150px;
+
+}
+
+.Primeira-Linha h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.Primeira-Linha h3.Color {
+    color: #116CFF;
+}
+
+.Segunda-Linha ul.Segunda {    
+    position:relative;
+    width: 152px;
+    bottom: 15px;
+    right: 120px;
+}
+
+.Segunda-Linha h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.Segunda-Linha h3.Color {
+    color: #116CFF;
+}
+
+.Terceira-Linha ul.Terceira {    
+    position:relative;
+    width: 152px;
+    bottom: 15px;
+    right: 90px; 
+}
+
+.Terceira-Linha h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.Terceira-Linha h3.Color {
+    color: #116CFF;
+}
+
+.Quarta-Linha ul.Quarta {    
+    position:relative;
+    width: 152px;
+    bottom: 61px;
+    right: 80px; 
+}
+
+.Quarta-Linha h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.Quarta-Linha h3.Color {
+    color: #116CFF;
+}
 
 @media screen and (max-width: 1200px) {
     section {
