@@ -95,6 +95,10 @@ p {
     left: 500px;
 }
 
+.div3 a {
+    color:#FFFFFF;
+}
+
 .div3 h2.Testimony {
     position: relative;
     top: -13px;
@@ -105,6 +109,10 @@ p {
     position: absolute;
     top: 42px; 
     left: 700px;
+}
+
+.div4 a {
+    color:#FFFFFF;
 }
 
 .div4 h2.Class {
@@ -122,6 +130,10 @@ p {
     left: 850px;  
 }
 
+.div5 a {
+    color:#FFFFFF;
+}
+
 .div5 h2.Our-Activity {
     position: relative;
     top: 10px;
@@ -135,6 +147,10 @@ p {
     position: absolute;
     top: 42px;
     left: 1050px;
+}
+
+.div6 a {
+    color:#FFFFFF;
 }
 
 .div6 h2.Contact-us {
@@ -255,28 +271,7 @@ p {
     left: 115px;
     color: #116CFF;
 }
-/*
-#aspas ::before, ::after {
-    color: #FF463A;
-    font-style: bold;
-    font-size:clamp(24px,2vw,36px);
-}
 
-#aspas ::before {
-    content: open-quote;
-}
-
-#aspas ::after {
-    content: closed-quote;
-}
-#aspas{
-    font-size: 24px;
-    font-weight: 400;
-    line-height:19px;
-    letter-spacing: 0.015em;
-    line-height: 180%;
-}
-*/
 .Testimony div.Eleanor {
     position: relative;
     top: 200px;
@@ -492,7 +487,6 @@ p {
 table {
     position: relative;
     top: 50px;
-
     width: 83%;
     border-collapse: collapse;
 }
@@ -1016,18 +1010,15 @@ td {
 }
 
 main {
-    
     height: 50vh;
     display:flex;
     align-items: center;
     padding: 0px;
     margin: 0px;
-
 }
 
 .Footer img.Imagem-Footer{
     position: absolute;
-
 }
 
 .div14 {

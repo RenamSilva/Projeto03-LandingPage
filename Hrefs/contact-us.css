@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;    
+}
+
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 0; 
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.Ready-To-Start {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.Ready-To-Start h1 {
+    position: relative;
+    text-align: center;
+    top: 42px;
+    width: 537px;
+    height: 150px;
+    font-size: 36px;
+    line-height: 50px;
+
+    color: #00235C;
+}
+
+.Email{
+    position: relative;
+    text-align: center;
+    width: 51px;
+    height: 25px;
+    left: -15px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+
+    color: #00235C;
+}
+
+.Campo-Email {
+    position: relative;
+    width: 394px;
+    height: 52px;
+    left: 80px;
+    top: 0px;
+
+    border: 1px solid #BCD6FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Parents-Name {
+    position: relative;
+    text-align: center;
+    width: 117px;
+    height: 25px;
+    left: -15px;
+    top: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+
+    color: #00235C;
+}
+
+.Campo-Parents-Name {
+    position: relative;
+    width: 394px;
+    height: 52px;
+    left: 13.5px;
+    top: 20px;
+
+    border: 1px solid #BCD6FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Kids-Name {
+    position: relative;
+    text-align: center;
+    width: 92px;
+    height: 25px;
+    left: -15px;
+    top: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+
+    color: #00235C;
+}
+
+.Campo-Kids-Name {
+    position: relative;
+    width: 394px;
+    height: 52px;
+    left: 38px;
+    top: 40px;
+
+    border: 1px solid #BCD6FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Classe {
+    position: relative;
+    text-align: center;
+    width: 52px;
+    height: 25px;
+    left: -15px;
+    top: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+
+    color: #00235C;
+}
+
+.Campo-Class {
+    position: relative;
+    width: 394px;
+    height: 52px;
+    left: 78.5px;
+    top: 60px;
+
+    border: 1px solid #BCD6FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Register {
+    position: relative;
+    width: 200px;
+    height: 52px;
+    left: 323px;
+    top: 90px;
+
+    background: #116CFF;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.div12 {
+    position: relative;
+    width: 139px;
+    height: 35px;
+    left: 550px;
+    bottom: 250px; 
+
+    background: #FF463A;
+    border-radius: 10px;
+}
+
+.div12 p.Ask-Teacher {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 0px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.div13 {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left: 550px;
+    top: -234px;
+
+    border: 2px solid #FF463A;
+    box-sizing: border-box;
+    border-radius: 50px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.Ready-To-Start img.Ask-Teacher {
+    position: relative;
+    left: 550px;
+    top: -322px;
+}
+
+.Ready-To-Start img.Flame1{
+    position: relative;
+    bottom: 155px;
+    right: 260px;
+}
+
+.Ready-To-Start img.Flame2 {
+    position: relative;
+    left: 260px;
+    bottom: 570px;
+}

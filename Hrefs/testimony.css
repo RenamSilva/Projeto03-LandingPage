@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;    
+}
+
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 0; 
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.Testimony {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 24px;
+
+    background-image: url(./img/kingdom-1263\ 1.png);
+}
+
+.Testimony h1{
+    position: relative;
+    top: 42px;
+    left: 115px;
+    color: #116CFF;
+}
+
+.Testimony div.Eleanor {
+    position: relative;
+    top: 200px;
+    left: 25px;
+    width: 440px;
+    height: 180px;
+
+    border-radius: 20px;
+    background-color: #E7F0FF;
+}
+
+.Testimony h2.Eleanor-Pena {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    
+    position: relative;
+    left: 24px;
+    top: 20px;
+    font-size: 23px;
+
+    color: #00235C;
+}
+
+.Testimony p.Eleanor-Coment {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    
+    position: relative;
+    width: 400px;
+    left: 24px;
+    top: 40px;
+    font-size: 20px;
+
+    color: #00235C;
+
+}
+
+.Testimony img.Eleanor-Star {
+    position: relative;
+    left: 24px;
+    bottom: 80px;
+}
+
+.Testimony img.Eleanor-Photo {
+    position: relative;
+    right: 760px;
+    bottom: 155px;
+}
+
+.Testimony div.Cameron {
+    position: relative;
+    top: 200px;
+    left: 125px;
+    width: 440px;
+    height: 180px;
+
+    border-radius: 20px;
+    background: #FFE6E5;
+}
+
+.Testimony h2.Cameron-Alexander {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    
+    position: relative;
+    left: 24px;
+    top: 20px;
+    font-size: 23px;
+
+    color: #00235C;
+}
+
+.Testimony p.Cameron-Coment {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    
+    position: relative;
+    width: 400px;
+    left: 24px;
+    top: 40px;
+    font-size: 20px;
+
+    color: #00235C;
+
+}
+
+.Testimony img.Cameron-Star {
+    position: relative;
+    left: 24px;
+    bottom: 80px;
+}
+
+.Testimony img.Cameron-Photo {
+    position: relative;
+    left: 325px;
+    bottom: 155px;
+}
+
+.Testimony div.Jane {
+    position: relative;
+    top: 50px;
+    left: 271px;
+    width: 440px;
+    height: 180px;
+
+    border-radius: 20px;
+    background: #FFE6E5;
+}
+
+.Testimony h2.Jane-Cooper {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    
+    position: relative;
+    left: 24px;
+    top: 20px;
+    font-size: 23px;
+
+    color: #00235C;
+}
+
+.Testimony p.Jane-Coment {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    
+    position: relative;
+    width: 300px;
+    left: 24px;
+    top: 40px;
+    font-size: 20px;
+
+    color: #00235C;
+
+}
+
+.Testimony img.Jane-Star {
+    position: relative;
+    left: 24px;
+    bottom: 80px;
+}
+
+.Testimony img.Jane-Photo {
+    position: relative;
+    right: 826px;
+    top: 60px;
+}
+
+.Testimony div.Jenny {
+    position: relative;
+    top: 50px;
+    left: 371px;
+    width: 440px;
+    height: 180px;
+
+    border-radius: 20px;
+    background-color: #E7F0FF;
+}
+
+.Testimony h2.Jenny-Wilson {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    
+    position: relative;
+    left: 24px;
+    top: 20px;
+    font-size: 23px;
+
+    color: #00235C;
+}
+
+.Testimony p.Jenny-Coment {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    
+    position: relative;
+    width: 400px;
+    left: 24px;
+    top: 40px;
+    font-size: 20px;
+
+    color: #00235C;
+
+}
+
+.Testimony img.Jenny-Star {
+    position: relative;
+    left: 24px;
+    bottom: 80px;
+}
+
+.Testimony img.Jenny-Photo {
+    position: relative;
+    left: 260px;
+    top: 60px;
+}
